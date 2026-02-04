@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MEDIA DE SUS -->
+<div id="media-container">
+  <!-- Clipul video -->
+  <video id="intro-video" autoplay muted playsinline>
+    <source src="clipvid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Poza care apare la NO -->
+  <img id="photo-no" src="vreisanu.JPG" class="hidden">
+
+  <!-- Poza care apare la YES -->
+  <img id="photo-final" src="vreisada.JPG" class="hidden">
+</div>
+
+<!-- Intrebarea -->
+<h1 id="question"></h1>
+
+<!-- Butoane YES / NO -->
+<div class="buttons">
+  <button id="yesBtn">YES</button>
+  <button id="noBtn">NO</button>
+</div>
+
+<!-- Text final -->
+<p id="message"></p>
+
+<!-- Container pentru inimioare -->
+<div id="heart-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
