@@ -50,7 +50,7 @@ function heartExplosion(x, y, count = 12) {
 
 /* NO button */
 noBtn.addEventListener("click", (e) => {
-  typeWriter(questionEl, "Are you sure?", 60);
+  typeWriter(questionEl, "NU ACCEPT ACEST RĂSPUNS", 60);
 
   // clipul dispare
   introVideo.classList.add("hidden");
